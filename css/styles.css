@@ -35,7 +35,7 @@ hr {
 
 #top-section {
 	background-color: #daecec;
-	padding: 5% 0 0;
+	padding: 5% 0 2%;
 	position: relative;
 }
 
@@ -153,6 +153,7 @@ hr {
 
 	#middle-section #falls {
 		width: 70%;
+                margin: 20px 0;
 	}
 
 	#middle-section #intro p {
