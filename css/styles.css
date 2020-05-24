@@ -1,3 +1,4 @@
+/* Tag selectors */
 body {
 	margin: 0;
 	text-align: center;
@@ -30,6 +31,8 @@ hr {
 	margin: 4rem auto;
 }
 
+/* Top Section */
+
 #top-section {
 	background-color: #daecec;
 	padding: 5% 0 0;
@@ -44,6 +47,8 @@ hr {
 .trees img {
 	margin: -10px 0 0 -10px;
 }
+
+/* Middle Section */
 
 #middle-section h2 {
 	font-size: 2.5rem;
@@ -73,7 +78,7 @@ hr {
 }
 
 #contact-me p {
-	width: 30%;
+	width: 50%;
 	margin: 0 auto;
 	line-height: 2;
 }
@@ -81,6 +86,8 @@ hr {
 #contact-me .btn {
 	margin-top: 50px;
 }
+
+/* Bottom Section */
 
 #bottom-section {
 	position: relative;
@@ -113,6 +120,7 @@ hr {
 	margin-top: 50px;
 }
 
+/* Media queries */
 @media (max-width: 800px) {
 	#top-section .cloud-1 {
 		position: absolute;
