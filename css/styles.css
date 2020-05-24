@@ -33,11 +33,16 @@ hr {
 #top-section {
 	background-color: #daecec;
 	padding: 5% 0 0;
+	position: relative;
 }
 
 .cloud-1 {
 	position: absolute;
 	left: 10%;
+}
+
+.trees img {
+	margin: -10px 0 0 -10px;
 }
 
 #middle-section h2 {
@@ -138,6 +143,10 @@ hr {
 		text-align: center;
 	}
 
+	#middle-section #falls {
+		width: 70%;
+	}
+
 	#middle-section #intro p {
 		width: 50%;
 		margin: 0 auto;
@@ -148,6 +157,11 @@ hr {
 		font-size: 2rem;
 	}
 
+	#bottom-section a{
+		font-size: 1rem;
+		padding: 5%;
+	}
+
 	#bottom-section img {
 		width: 30%;
 		position: absolute;
@@ -155,12 +169,4 @@ hr {
 		bottom: 0;
 	}
 }
-
-
-
-
-
-
-
-
 
